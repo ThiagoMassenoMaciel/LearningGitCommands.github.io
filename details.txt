@@ -11,3 +11,6 @@ o primeiro add deu erro pois eu n havia alterado algo
 git commit -m "mensagem etiqueta = commit"
 
 esqueci do git init no começo 
+
+git log 
+
