@@ -19,3 +19,7 @@ git log --oneline  // one version with less words
 git log -n 2   // get last 2 commits 
 
 git commit
+
+depois de ser comitado ele vai para o historico 
+                                para aprateleira 
+                                                     vai para o log
