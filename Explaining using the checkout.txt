@@ -1,0 +1,19 @@
+quando você faz isso depois do checkout idCommit     os files antigos ficão riscados no vscode pois estão temporariamente apagados na lixeira do checkout mantendo somente os arquivos no tempo que commit 2 foi executado na linha do tempo do projeto
+
+PASSO : ESCOLHA O ID DO COMMIT QUE VC DESEJA VOLTAR 
+
+	git log --oneline
+
+		COPIA O ID DO ESCOLHIDO COMIT    
+
+	git checkout idcomitescolhidoHASHcode    // isso quer dizer que o head vai apontar para o idCOMMIT escolhido   
+(IDEIA  MAP<HASH CODE , logs do commit>  e um objeto head que aponta para este hash code que acessa logs do commit e exibe no console)
+
+	o programa vai restornar o estado em que os seus arquivos se encontravam na epoca desse commit 
+		tirando as linhas de codigo da versão anterior temporariamente ate você decidir sair
+		
+	quando vc olhar o git log depois de fazer checkout verá que os commits depois do que vc escolheu , irão desaparecer temporáriamente até vc decidir sair do checkout 
+	
+
+	sair do checkout
+	git checkout main    // vai pazer o ponteiro apontar para o main ( ultimo commit)
