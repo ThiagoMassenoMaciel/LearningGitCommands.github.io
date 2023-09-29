@@ -23,3 +23,5 @@ git commit
 depois de ser comitado ele vai para o historico 
                                 para aprateleira 
                                                      vai para o log
+
+                                                     mostra o log ele store os commits em estrutura pilha   
