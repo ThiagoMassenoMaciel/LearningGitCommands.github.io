@@ -14,3 +14,6 @@ esqueci do git init no começo
 
 git log 
 
+git log --oneline
+
+git log -n 2   // get last 2 commits 
