@@ -17,3 +17,5 @@ git log
 git log --oneline  // one version with less words 
 
 git log -n 2   // get last 2 commits 
+
+git commit
