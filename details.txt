@@ -41,4 +41,4 @@ depois de ser comitado ele vai para o historico
     para sair do diff clicar tecla q 
 
 
-  não da pra fazer um commit antes de fazer um git add . 
+  não da pra fazer um commit antes de fazer um git add .  q

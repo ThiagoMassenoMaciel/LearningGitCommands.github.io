@@ -1,0 +1,24 @@
+Desfazer modificações no git 
+  3 tipos 
+    
+    muito seguro : Checkout
+      pois n altera histórico do git 
+        ex: use o checkout no git e olhe como esta o estado de um commit anterior 
+            podendo criar um branch apartir daí ou não 
+    
+    n seguro :  revert
+      pois altera o histórico do seu git PERIGOSO POIS MUDA - UM POUCO SEGURO POIS MANTEM 
+        ex : vc esta no ultimo commit e pretende remover tudo (tirar todas as alterações que fez )o que fez em 
+            um commit passado ( arquivo grande tipo uma feature) e fara um commit automático sem estas alterações 
+            
+            use o revert para isso 
+            ou apaga linha por linha e  faz um novo commit
+
+    perigozissimo : reset 
+
+      altera todo o histórico pois apaga tudo que foi especificado 
+        você tem 5 commites e deseja apagar o :
+                                                -ultimo
+                                                -penultimo
+                                                -antePenultimo
+        para voltar no tempo e apagar 
