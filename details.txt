@@ -24,4 +24,12 @@ depois de ser comitado ele vai para o historico
                                 para aprateleira 
                                                      vai para o log
 
-                                                     mostra o log ele store os commits em estrutura pilha   
+                                                     mostra o log ele store os commits em estrutura pilha 
+
+   WORKING DIRECTORY 
+    modified
+  STAGE AREA 
+    preparar para o commit 
+  REPOSITORY 
+    fez o commit agora esta no historico e saio da caixinhas anteriores
+    
