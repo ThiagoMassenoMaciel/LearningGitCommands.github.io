@@ -32,4 +32,13 @@ depois de ser comitado ele vai para o historico
     preparar para o commit 
   REPOSITORY 
     fez o commit agora esta no historico e saio da caixinhas anteriores
-    
+
+
+
+  git diff 
+
+    so funcionou depois que eu mexi denovo no arquivo antes de mexer no git status  
+    para sair do diff clicar tecla q 
+
+
+  não da pra fazer um commit antes de fazer um git add . 
